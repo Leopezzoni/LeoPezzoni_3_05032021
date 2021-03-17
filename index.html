@@ -3,11 +3,86 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Oh My Food- Home</title>
-</head>    
-    <!--LOADER-->
-    <!--HEADER-->
-    <!--SECTION LOCATION-->
-    <!--SECTION CALL TO ACTION-->
-    <!--SECTION TUTO-->
-    <!--SECTION RESTAURANT-->
+    <meta name="description" content="Welcome to Oh my food! This is our home page"/>
+    <link rel="stylesheet" href="./style.css"/>
+    
+</head>
+<body>
+    <div class="wrapper">
+     <!--LOADER-->
+     <div class="loader-container">
+         <span class="loader"></span>
+     </div>
+     <!--HEADER-->
+     <div class="split container">
+         <header class="main-header">
+             <a href="#">
+                 <img class="main-header__logo" src="./logo/ohmyfood.png" alt="ohmyfood logo"/>
+             </a>
+         </header>
+     <!--SECTION LOCATION-->
+     <section class="section-location">
+         <span class="icon fas fa-map-marker-alt"></span>
+         Paris, Belleville
+     </section>
+     </div>
+     <!--SECTION CALL TO ACTION-->
+     <section class="main-sections section-cta">
+         <h3 class="section-cta__header big-header">Réservez le menu qui vous convient</h3>
+         <p class="section-cta__parag">
+            Découvrez des restaurants d'exception, sélectionnés par nos soins
+         </p>
+         <a class="pink-btn" href="#section-restaurants">
+             Explorez nos restaurants
+         </a>
+     </section>
+     <!--SECTION TUTO-->
+     <section class="main-sections section-tuto">
+         <div class="container">
+             <h3 class="section-tuto__header big-header">Fonctionnement</h3>
+             <div class="section-tuto__cards-container">
+                 <!--small card 1-->
+                 <div class="section-tuto__card small-card">
+                     <span class="section-tuto__number">1</span>
+                     <span class="section-tuto__icon icon fas fa-mobile-alt"></span>
+                     Choisissez un restaurant
+                 </div>
+                 <!--small card 2-->
+                 <div class="section-tuto__card small-card">
+                     <span class="section-tuto__number">2</span>
+                     <span class="section-tuto__icon icon fas fa-list-ul"></span>
+                     Composez votre menu
+                 </div>
+                 <!--small card 3-->
+                 <div class="section-tuto__card section-tuto__card--purple small-card">
+                     <span class="section-tuto__number">3</span>
+                     <span class="section-tuto__icon section-tuto__icon--purple icon fas fa-store"></span>
+                     Dégustez au restaurant
+                 </div>
+             </div>
+         </div>
+     </section>
+     <!--SECTION RESTAURANT-->
+     <section id="section-restaurants" class="main-sections section-restaurants">
+         <div class="container">
+             <h3 class="section-restaurants__header big-header">Restaurants</h3>
+             <div class="section-restaurants__cards-container">
+                 <!--big card 1-->
+                 <div class="section-restaurants__card">
+                     <span class="section-restaurants__new">New</span>
+                     <a href="La-palette-du-gout.html"></a>
+                 </div>
+             </div>
+         </div>
+     </section>
+    </div>
+    <script src="https://kit.fontawesome.com/97e3147ee9.js" crossorigin="anonymous">
+    </script>
+</body>   
+    
+    
+    
+    
+    
+    
     <!--FOOTER-->
