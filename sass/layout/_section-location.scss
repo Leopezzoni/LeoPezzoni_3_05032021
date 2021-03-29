@@ -1,0 +1,16 @@
+.section-location {
+    position: relative;
+    text-align: center;
+    background: $grey;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: $light-black;
+    padding: 0.7rem 0.9rem;
+}
+
+@media (min-width: $mama-bear) {
+    .section-location {
+        background: none;
+        font-size: 1.2rem;
+    }
+}

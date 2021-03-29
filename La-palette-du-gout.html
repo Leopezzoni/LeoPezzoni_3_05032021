@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang=fr>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> La Palette du gout - Menu</title>
+    <meta
+      name="description"
+      content="Bienvenu sur Oh my food! Ceci est le menu de la Palette du gout."
+    />
+    <link rel="stylesheet" href="./styles/main.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&family=Shrikhand&display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <div class="wrapper">
+        <!--HEADER-->
+      <header id="header" class="main-header container">
+          <a href="index.html">
+              <div class="main-header__menu-header">
+                  <span class="main-header__arrow fas fa-arrow-left"></span>
+                  <img
+                    class="main-header__logo"
+                    src="./logo/ohmyfood.png"
+                    alt="ohmyfood logo"
+                  />  
+              </div>
+          </a>
+      </header>
+      <!--SECTION-MENU-IMAGE-->
+      <section class="section-menu-image">
+          <picture>
+              <source
+                media="(min-width: 1200px)"
+                srcset="./images/Large/the-full-palette-big.jpg"
+              />
+              <source
+                media="(min-width: 700px)"
+                srcset="./images/Medium/the-full-palette-medium.jpg"
+              />
+              <source srcset="./images/small/the-full-palette-small.jpg"/>
+              <img 
+                src="./images/Large/the-full-palette-big.jpg"
+                alt="Un des nombreux plats délicieux de la pallette du gout"
+                class="section-menu-image section-menu-image__the-full-palette"
+              />    
+          </picture>
+      </section>
+      <!--SECTION-MENU-->
+      <div class="container">
+          <section class="section-menu main-sections">
+              <div class="section-menu__restaurant-header">
+                  <h2 class="section-menu__restaurant-name">La palette du gout</h2>
+                  <div class="heart__heart-container">
+                      <label
+                        for="section-menu__checkbox-the-full-palette"
+                        class="heart-label"
+                      >
+                       <span class="heart__empty-heart far fa-heart"></span>
+                       <input
+                         type="checkbox"
+                         class="heart__checkbox"
+                         id="section-menu__checkbox-the-full-palette"
+                       />
+                       <span class="heart__full-heart fas fa-heart"></span>
+                     </label>
+                  </div>
+              </div>
+              <!--FIRST-COURSE-->
+              <div class="section-menu__courses-container">
+                  <article class="section-menu__course">
+                      <h3 class="section-menu__course-header">Entrées</h3>
+                      <!--Première entrée-->
+                      <div class="menu-card">
+                          <label for="escargot" class="inout-dishes">
+                              <div class="menu-card__flexed-items">
+                                  <input
+                                    type="checkbox"
+                                    class="menu-card__checkbox"
+                                    id="escargot"
+                                  />
+                                  <div class="menu-card__infos">
+                                      <h4 class="menu-card__header">Fricassée d'escargot</h4>
+                                      <div class="menu-card__desc-n-price">
+                                          <p class="menu-card__desc">
+                                              Au piment d'espelette
+                                          </p>
+                                          <p class="menu-card__price">25€</p>
+                                      </div>
+                                  </div>
+                                  <div class="menu-card__success-container">
+                                      <span
+                                        class="menu-card__success fas fa-check-circle"
+                                      ></span>
+                                  </div>
+                              </div>
+                          </label>
+                      </div>
+                      <!--Deuxieme entree-->
+                      <div class="menu-card">
+                          <label for="foie-gras" class="input-dishes">
+                              <div class="menu-card__flexed-items">
+                                  <input
+                                    type="checkbox"
+                                    class="menu-card__checkbox"
+                                    id="foie-gras"
+                                   />
+                                   <div class="menu-card__infos">
+                                       <h4 class="menu-card__header">Foie gras de canard mi-cuit</h4>
+                                       <div class="menu-card__desc-n-price">
+                                           <p class="menu-card__desc">
+                                               Et ses copeaux de truffe noire
+                                           </p>
+                                           <p class="menu-card__price">35€</p>
+                                       </div>
+                                   </div>
+                                   <div class="menu-card__success-container">
+                                       <span 
+                                         class="menu-card__success fas fa-check-circle"
+                                       ></span>  
+                                   </div>
+                              </div>
+                          </label>
+                      </div>
+                      <!--Troiseme entree-->
+                      <div class="menu-card">
+                          <label for="fried-egg" class="input-dishes">
+                              <div class="menu-card__flexed-items">
+                                  <input
+                                    type="checkbox"
+                                    class="menu-card__checkbox"
+                                    id="fried-egg"
+                                  />
+                                  <div class="menu-card__infos">
+                                      <h4 class="menu-card__header">Oeuf au plat</h4>
+                                      <div class="menu-card__desc-n-price">
+                                          <p class="menu-card__desc">Assaisonné à la truffe sur lit de caviar</p>
+                                          <p class="menu-card__price">20€</p>
+                                      </div>
+                                  </div>
+                                  <div class="menu-card__success-container">
+                                      <span
+                                        class="menu-card__success fas fa-check-circle"
+                                      ></span>  
+                                  </div> 
+                              </div>
+                          </label>
+                      </div>
+                  </article>
+                  <!--MAIN COURSE-->
+                  <article class="section-menu__course">
+                      <h3 class="section-menu__course-header">Plats</h3>
+                      <!--Premier plat-->
+                      <div class="menu-card">
+                          <label for="steak" class="input-dishes">
+                              <div class="menu-card__flexed-items">
+                                  <input
+                                    type="checkbox"
+                                    class="menu-card__checkbox"
+                                    id="steak"
+                                  />
+                                  <div class="menu-card__infos">
+                                      <h4 class="menu-card__header">Filet de boeuf aux herbes</h4>
+                                      <div class="menu-card__desc-n-price">
+                                          <p class="menu-card__desc">
+                                            Accompagné de sa ribambelle de<br/>légumes
+                                          </p>
+                                          <p class="menu-card__price">40€</p>
+                                      </div>
+                                  </div>
+                                  <div class="menu-card__success-container">
+                                      <span
+                                        class="menu-card__success fas fa-check-circle"
+                                      ></span>  
+                                  </div> 
+                              </div>
+                          </label>
+                        </div>
+                        <!--Second plat-->
+                        <div class="menu-card">
+                            <label for="ox" class="input-dishes">
+                                <div class="menu-card__flexed-items">
+                                    <input
+                                      type="checkbox"
+                                      class="menu-card__checkbox"
+                                      id="ox"
+                                    />
+                                    <div class="menu-card__infos">
+                                        <h4 class="menu-card__header">Parmentier de queue de boeuf</h4>
+                                        <div class="menu-card__desc-n-price">
+                                            <p class="menu-card__desc">
+                                                À la truffe noire sur sa purée de panais
+                                            </p>
+                                            <p class="menu-card__price">35€</p>
+                                        </div>
+                                    </div>
+                                    <div class="menu-card__success-container">
+                                        <span 
+                                          class="menu-card__success fas fa-check-circle"
+                                        ></span>   
+                                    </div>  
+                                </div>
+                            </label>
+                        </div>
+                        <!--troisieme plat-->
+                        <div class="menu-card">
+                            <label for="sole" class="input-dishes">
+                                <div class="menu-card__flexed-items">
+                                    <input
+                                      type="checkbox"
+                                      class="menu-card__checkbox"
+                                      id="sole"
+                                    />
+                                    <div class="menu-card__infos">
+                                        <h4 class="menu-card__header">Filet de turbot</h4>
+                                        <div class="menu-card__desc-n-price">
+                                            <p class="menu-card__desc">Aux agrumes</p>
+                                            <p class="menu-card__price">44€</p>
+                                        </div>
+                                    </div>
+                                    <div class="menu-card__success-container">
+                                        <span
+                                          class="menu-card__success fas fa-check-circle"
+                                        ></span>  
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+                  </article>
+                  <!--Last course-->
+                  
+              </div>
+          </section>
+      </div>  
+    </div>
+</body>

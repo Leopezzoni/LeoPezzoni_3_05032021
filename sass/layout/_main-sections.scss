@@ -1,0 +1,15 @@
+.main-sections {
+  padding: 2.2rem 1.4rem;
+}
+
+@media (min-width: $baby-bear) {
+  .main-sections {
+    padding: 4rem 3rem;
+  }
+}
+
+@media (min-width: $mama-bear) {
+  .main-sections {
+    padding: 8rem 0;
+  }
+}
