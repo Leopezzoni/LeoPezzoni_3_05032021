@@ -1,301 +1,332 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Oh My Food- Home</title>
-    <meta name="description" content="Welcome to Oh my food! This is our home page"/>
-    <link rel="stylesheet" href="./styles/main.css"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&family=Shrikhand&display=swap" rel="stylesheet">
-</head>
-<body>
+    <meta
+      name="description"
+      content="Welcome to Oh my food! This is our home page"
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&family=Shrikhand&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="wrapper">
-     <!--LOADER-->
-     <div class="loader-container">
-         <span class="loader"></span>
-     </div>
-     <!--HEADER-->
-     <div class="split container">
-         <header class="main-header">
-             <a href="#">
-                 <img class="main-header__logo" src="./logo/logo.svg" alt="ohmyfood logo"/>
-             </a>
-         </header>
-     <!--SECTION LOCATION-->
-     <section class="section-location">
-         <span class="icon fas fa-map-marker-alt"></span>
-         Paris, Belleville
-     </section>
-     </div>
-     <!--SECTION CALL TO ACTION-->
-     <section class="main-sections section-cta">
-         <h3 class="section-cta__header big-header">Réservez le menu qui vous convient</h3>
-         <p class="section-cta__parag">
-            Découvrez des restaurants d'exception, sélectionnés par nos soins
-         </p>
-         <a class="pink-btn" href="#section-restaurants">
-             Explorer nos restaurants
-         </a>
-     </section>
-     <!--SECTION TUTO-->
-     <section class="main-sections section-tuto">
-         <div class="container">
-             <h3 class="section-tuto__header big-header">Fonctionnement</h3>
-             <div class="section-tuto__cards-container">
-                 <!--small card 1-->
-                 <div class="section-tuto__card small-card">
-                     <span class="section-tuto__number">1</span>
-                     <span class="section-tuto__icon icon fas fa-mobile-alt"></span>
-                     Choisissez un restaurant
-                 </div>
-                 <!--small card 2-->
-                 <div class="section-tuto__card small-card">
-                     <span class="section-tuto__number">2</span>
-                     <span class="section-tuto__icon icon fas fa-list-ul"></span>
-                     Composez votre menu
-                 </div>
-                 <!--small card 3-->
-                 <div class="section-tuto__card section-tuto__card--purple small-card">
-                     <span class="section-tuto__number">3</span>
-                     <span class="section-tuto__icon section-tuto__icon--purple icon fas fa-store"></span>
-                     Dégustez au restaurant
-                 </div>
-             </div>
-         </div>
-     </section>
-     <!--SECTION RESTAURANT-->
-     <section id="section-restaurants" class="main-sections section-restaurants">
-         <div class="container">
-             <h3 class="section-restaurants__header big-header">Restaurants</h3>
-             <div class="section-restaurants__cards-container">
-                 <!--big card1-->
-                <div class="section-restaurants__card">
-                     <span class="section-restaurants__new">Nouveau</span>
-                    <a href="./pages/la-palette-du-gout.html">
-                         <picture>
-                             <source
-                              media="(min-width: 1200px)"
-                              srcset="./images/Large/the-full-palette-big.jpg"
-                            />
-                             <source
-                              media="(min-width: 700px)"
-                              srcset="./images/Medium/the-full-palette-medium.jpg"
-                            />
-                             <source srcset="./images/small/the-full-palette-small.jpg"/>
-                             <img
-                               src="./images/Large/the-full-palette-big.jpg"
-                               alt="Un des nombreux plats délicieux de la palette du gout"
-                               class="section-restaurants__image section-restaurants__image--the-full-palette"
-                             />  
-                         </picture>
-                    </a>
-                    <div class="section-restaurants__card-footer">
-                        <a href="la-palette-du-gout.html">
-                            <div class="section-restaurants__captions">
-                                 <span class="section-restaurants__name">
-                                     La palette du goût
-                                 </span>
-                                 <span class="section-restaurants__location">
-                                     Ménilmontant
-                                 </span>
-                            </div>
-                        </a>
-                    <div class="heart__heart-container">
-                         <label
-                           for="section-restaurants__checkbox1"
-                           class="heart__label"
-                           >
-                           <span class="heart_empty-heart far fa-heart"></span>
-                         <input
-                           type="checkbox"
-                           class="heart__checkbox"
-                           id="section-restaurants__checkbox1"
-                         />
-                         <span class="heart__full-heart fas fa-heart"></span>  
-                        </label>
-                      </div>        
-                    </div>
-                 </div>
-                 <!--Big card 2-->
-                 <div class="section-restaurants__card">
-                     <span class="section-restaurants__new">Nouveau</span>
-                     <a href="./pages/la-note-enchantee.html">
-                        <picture>
-                            <source
-                               media="(min-width: 1200px)"
-                               srcset="./images/Large/the-enchanted-plate-big.jpg"
-                            />
-                            <source 
-                               media="(min-width: 700px)"
-                               srcset="./images/Medium/the-enchanted-plate-medium.jpg"
-                            />
-                            <source srcset="./images/small/the-enchanted-plate-small.jpg"/>
-                            <img
-                              src="./images/Large/the-enchanted-plate-big.jpg"
-                              alt="Un plat joliement décoré"
-                              class="section-restaurants__image section-restaurants__image--the-enchanted-plate"
-                            />     
-                        </picture>
-                     </a>
-                     <div class="section-restaurants__card-footer">
-                         <a href="la-note-enchantee.html">
-                             <div class="section-restaurants__captions">
-                                 <span class="section-restaurants__name">
-                                     La note enchantée
-                                 </span>
-                                 <span class="section-restaurants__location">
-                                     Charonne
-                                 </span>
-                             </div>
-                         </a>
-                         <div class="heart__heart-container">
-                             <label
-                               for="section-restaurants__checkbox2"
-                               class="heart__label"
-                             >
-                               <span class="heart__empty-heart far fa-heart"></span>
-                               <input
-                                 type="checkbox"
-                                 class="heart__checkbox"
-                                 id="section-restaurants__checkbox2"
-                               />
-                               <span class="heart__full-heart fas fa-heart"></span>
-                              </label>  
-                         </div>
-                     </div>
-                 </div>
-                 <!--big card 3-->
-                 <div class="section-restaurants__card">
-                     <a href="./pages/a-la-francaise.html">
-                         <picture>
-                             <source
-                               media="(min-width: 1200px)"
-                               srcset="./images/Large/bastille-big.jpg"
-                             />
-                             <source
-                               media="(min-width: 700px)"
-                               srcset="./images/Medium/bastille-medium.jpg"
-                             />
-                             <source srcset="./images/small/bastille-small.jpg"/>
-                             <img
-                               src="./images/Large/bastille-big.jpg"
-                               alt="Une table rempli de délicieux plats"
-                               class="section-restaurants__image section-restaurants__image--bastille"
-                             />
-                         </picture>
-                     </a>
-                     <div class="section-restaurants__card-footer">
-                         <a href="a-la-française.html">
-                             <div class="section-restaurants__captions">
-                                 <span class="section-restaurants__name">À la française</span>
-                                 <span class="section-restaurants__location">
-                                     Cité rouge
-                                 </span>
-                             </div>
-                         </a>
-                         <div class="heart__heart-container">
-                             <label
-                               for="section-restaurants__checkbox3"
-                               class="heart__label"
-                             >
-                               <span class="heart__empty-heart far fa-heart"></span>
-                               <input
-                                 type="checkbox"
-                                 class="heart__checkbox"
-                                 id="section-restaurants__checkbox3"
-                               />
-                               <span class="heart__full-heart fas fa-heart"></span>
-                            </label>
-                         </div>
-                     </div>
-                 </div>
-                 <!--big card 4-->
-                 <div class="section-restaurants__card">
-                     <a href="./pages/le-delice-des-sens.html">
-                         <picture>
-                             <source
-                               media="(min-width: 1200px)"
-                               srcset="./images/Large/le-gourmand-big.jpg"
-                             />
-                             <source
-                               media="(min-width: 700px)"
-                               srcset="./images/Medium/le-gourmand-medium.jpg"
-                             />
-                             <source srcset="./images/small/le-gourmand-small.jpg"/>
-                             <img
-                               src="./images/Large/le-gourmand-big.jpg"
-                               alt="Un des nombreux plats du délice des sens"
-                               class="section-restaurants__image section-restaurants__image--le-gourmand"
-                             />
-                         </picture>
-                     </a>
-                     <div class="section-restaurants__card-footer">
-                         <a href="le-delice-des-sens.html">
-                             <div class="section-restaurants__captions">
-                                 <span class="section-restaurants__name">Le délice des sens</span>
-                                 <span class="section-restaurants__location">
-                                     Folie-Méricourt
-                                 </span>
-                             </div>
-                         </a>
-                         <div class="heart__heart-container">
-                            <label
-                               for="section-restaurants__checkbox4"
-                               class="heart__label"
-                             >
-                               <span class="heart__empty-heart far fa-heart"></span>
-                               <input
-                                 type="checkbox"
-                                 class="heart__checkbox"
-                                 id="section-restaurants__checkbox4"
-                               />
-                               <span class="heart__full-heart fas fa-heart"></span>  
-                            </label>
-                         </div>
-                     </div>
-                 </div>
-             </div>
-         </div>
-     </section>
-     <!--FOOTER-->
-     <footer class="footer">
-         <div class="container">
-             <a href="#">
-                 <h1 class="footer__brand">ohmyfood</h1>
-             </a>
-             <nav class="footer__nav">
-                 <ul class="footer__ul">
-                     <li class="footer__li">
-                         <a href="#">
-                             <span class="footer__logo fas fa-utensils"></span>
-                             Proposer un restaurant
-                         </a>
-                     </li>
-                     <li class="footer__li">
-                         <a href="#">
-                             <span class="footer__logo fas fa-hands-helping"></span>
-                             Devenir partenaire
-                         </a>
-                     </li>
-                     <li class="footer__li">
-                         <a href="#"> Mentions légales </a>
-                     </li>
-                     <li class="footer__li">
-                         <a href="mailto:contact@ohmyfood.com"> Contact </a>
-                     </li>
-                 </ul>
-             </nav>
-         </div>
-     </footer>
+      <!--LOADER-->
+      <div class="loader-container">
+        <span class="loader"></span>
+      </div>
+      <!--HEADER-->
+      <div class="split container">
+        <header class="main-header">
+          <a href="#">
+            <img
+              class="main-header__logo"
+              src="./logo/logo.svg"
+              alt="ohmyfood logo"
+            />
+          </a>
+        </header>
+        <!--SECTION LOCATION-->
+        <section class="section-location">
+          <span class="icon fas fa-map-marker-alt"></span>
+          Paris, Belleville
+        </section>
+      </div>
+      <!--SECTION CALL TO ACTION-->
+      <section class="main-sections section-cta">
+        <h3 class="section-cta__header big-header">
+          Réservez le menu qui vous convient
+        </h3>
+        <p class="section-cta__parag">
+          Découvrez des restaurants d'exception, sélectionnés par nos soins
+        </p>
+        <a class="pink-btn" href="#section-restaurants">
+          Explorer nos restaurants
+        </a>
+      </section>
+      <!--SECTION TUTO-->
+      <section class="main-sections section-tuto">
+        <div class="container">
+          <h3 class="section-tuto__header big-header">Fonctionnement</h3>
+          <div class="section-tuto__cards-container">
+            <!--small card 1-->
+            <div class="section-tuto__card small-card">
+              <span class="section-tuto__number">1</span>
+              <span class="section-tuto__icon icon fas fa-mobile-alt"></span>
+              Choisissez un restaurant
+            </div>
+            <!--small card 2-->
+            <div class="section-tuto__card small-card">
+              <span class="section-tuto__number">2</span>
+              <span class="section-tuto__icon icon fas fa-list-ul"></span>
+              Composez votre menu
+            </div>
+            <!--small card 3-->
+            <div
+              class="section-tuto__card section-tuto__card--purple small-card"
+            >
+              <span class="section-tuto__number">3</span>
+              <span
+                class="section-tuto__icon section-tuto__icon--purple icon fas fa-store"
+              ></span>
+              Dégustez au restaurant
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--SECTION RESTAURANT-->
+      <section
+        id="section-restaurants"
+        class="main-sections section-restaurants"
+      >
+        <div class="container">
+          <h3 class="section-restaurants__header big-header">Restaurants</h3>
+          <div class="section-restaurants__cards-container">
+            <!--big card1-->
+            <div class="section-restaurants__card">
+              <span class="section-restaurants__new">Nouveau</span>
+              <a href="./pages/la-palette-du-gout.html">
+                <picture>
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="./images/Large/the-full-palette-big.jpg"
+                  />
+                  <source
+                    media="(min-width: 700px)"
+                    srcset="./images/Medium/the-full-palette-medium.jpg"
+                  />
+                  <source
+                    media="(min-width: 390px)"
+                    srcset="./images/small/the-full-palette-small.jpg"
+                  />
+                  <img
+                    src="./images/Large/the-full-palette-big.jpg"
+                    alt="Un des nombreux plats délicieux de la palette du gout"
+                    class="section-restaurants__image section-restaurants__image--the-full-palette"
+                  />
+                </picture>
+              </a>
+              <div class="section-restaurants__card-footer">
+                <a href="la-palette-du-gout.html">
+                  <div class="section-restaurants__captions">
+                    <span class="section-restaurants__name">
+                      La palette du goût
+                    </span>
+                    <span class="section-restaurants__location">
+                      Ménilmontant
+                    </span>
+                  </div>
+                </a>
+                <div class="heart__heart-container">
+                  <label
+                    for="section-restaurants__checkbox1"
+                    class="heart__label"
+                  >
+                    <span class="heart_empty-heart far fa-heart"></span>
+                    <input
+                      type="checkbox"
+                      class="heart__checkbox"
+                      id="section-restaurants__checkbox1"
+                    />
+                    <span class="heart__full-heart fas fa-heart"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <!--Big card 2-->
+            <div class="section-restaurants__card">
+              <span class="section-restaurants__new">Nouveau</span>
+              <a href="./pages/la-note-enchantee.html">
+                <picture>
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="./images/Large/the-enchanted-plate-big.jpg"
+                  />
+                  <source
+                    media="(min-width: 700px)"
+                    srcset="./images/Medium/the-enchanted-plate-medium.jpg"
+                  />
+                  <source
+                    media="(min-width: 390px)"
+                    srcset="./images/small/the-enchanted-plate-small.jpg"
+                  />
+                  <img
+                    src="./images/Large/the-enchanted-plate-big.jpg"
+                    alt="Un plat joliement décoré"
+                    class="section-restaurants__image section-restaurants__image--the-enchanted-plate"
+                  />
+                </picture>
+              </a>
+              <div class="section-restaurants__card-footer">
+                <a href="la-note-enchantee.html">
+                  <div class="section-restaurants__captions">
+                    <span class="section-restaurants__name">
+                      La note enchantée
+                    </span>
+                    <span class="section-restaurants__location">
+                      Charonne
+                    </span>
+                  </div>
+                </a>
+                <div class="heart__heart-container">
+                  <label
+                    for="section-restaurants__checkbox2"
+                    class="heart__label"
+                  >
+                    <span class="heart__empty-heart far fa-heart"></span>
+                    <input
+                      type="checkbox"
+                      class="heart__checkbox"
+                      id="section-restaurants__checkbox2"
+                    />
+                    <span class="heart__full-heart fas fa-heart"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <!--big card 3-->
+            <div class="section-restaurants__card">
+              <a href="./pages/a-la-francaise.html">
+                <picture>
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="./images/Large/bastille-big.jpg"
+                  />
+                  <source
+                    media="(min-width: 700px)"
+                    srcset="./images/Medium/bastille-medium.jpg"
+                  />
+                  <source
+                    media="(min-width: 390px)"
+                    srcset="./images/small/bastille-small.jpg"
+                  />
+                  <img
+                    src="./images/Large/bastille-big.jpg"
+                    alt="Une table rempli de délicieux plats"
+                    class="section-restaurants__image section-restaurants__image--bastille"
+                  />
+                </picture>
+              </a>
+              <div class="section-restaurants__card-footer">
+                <a href="a-la-française.html">
+                  <div class="section-restaurants__captions">
+                    <span class="section-restaurants__name"
+                      >À la française</span
+                    >
+                    <span class="section-restaurants__location">
+                      Cité rouge
+                    </span>
+                  </div>
+                </a>
+                <div class="heart__heart-container">
+                  <label
+                    for="section-restaurants__checkbox3"
+                    class="heart__label"
+                  >
+                    <span class="heart__empty-heart far fa-heart"></span>
+                    <input
+                      type="checkbox"
+                      class="heart__checkbox"
+                      id="section-restaurants__checkbox3"
+                    />
+                    <span class="heart__full-heart fas fa-heart"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <!--big card 4-->
+            <div class="section-restaurants__card">
+              <a href="./pages/le-delice-des-sens.html">
+                <picture>
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="./images/Large/le-gourmand-big.jpg"
+                  />
+                  <source
+                    media="(min-width: 700px)"
+                    srcset="./images/Medium/le-gourmand-medium.jpg"
+                  />
+                  <source
+                    media="(min-width: 390px)"
+                    srcset="./images/small/le-gourmand-small.jpg"
+                  />
+                  <img
+                    src="./images/Large/le-gourmand-big.jpg"
+                    alt="Un des nombreux plats du délice des sens"
+                    class="section-restaurants__image section-restaurants__image--le-gourmand"
+                  />
+                </picture>
+              </a>
+              <div class="section-restaurants__card-footer">
+                <a href="le-delice-des-sens.html">
+                  <div class="section-restaurants__captions">
+                    <span class="section-restaurants__name"
+                      >Le délice des sens</span
+                    >
+                    <span class="section-restaurants__location">
+                      Folie-Méricourt
+                    </span>
+                  </div>
+                </a>
+                <div class="heart__heart-container">
+                  <label
+                    for="section-restaurants__checkbox4"
+                    class="heart__label"
+                  >
+                    <span class="heart__empty-heart far fa-heart"></span>
+                    <input
+                      type="checkbox"
+                      class="heart__checkbox"
+                      id="section-restaurants__checkbox4"
+                    />
+                    <span class="heart__full-heart fas fa-heart"></span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--FOOTER-->
+      <footer class="footer">
+        <div class="container">
+          <a href="#">
+            <h1 class="footer__brand">ohmyfood</h1>
+          </a>
+          <nav class="footer__nav">
+            <ul class="footer__ul">
+              <li class="footer__li">
+                <a href="#">
+                  <span class="footer__logo fas fa-utensils"></span>
+                  Proposer un restaurant
+                </a>
+              </li>
+              <li class="footer__li">
+                <a href="#">
+                  <span class="footer__logo fas fa-hands-helping"></span>
+                  Devenir partenaire
+                </a>
+              </li>
+              <li class="footer__li">
+                <a href="#"> Mentions légales </a>
+              </li>
+              <li class="footer__li">
+                <a href="mailto:contact@ohmyfood.com"> Contact </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
     </div>
-    <script src="https://kit.fontawesome.com/97e3147ee9.js" crossorigin="anonymous">
-    </script>
-</body>
-</html>  
-    
-    
-    
-    
-    
-    
+    <script
+      src="https://kit.fontawesome.com/97e3147ee9.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

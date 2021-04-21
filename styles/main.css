@@ -422,13 +422,13 @@ a {
 .menu-card__checkbox {
   display: none;
 }
-.menu-card__checkbox:hover ~ .menu-card__success-container {
+.menu-card__checkbox:checked ~ .menu-card__success-container {
   transform: translateX(0);
 }
-.menu-card__checkbox:hover ~ .menu-card__success-container > .menu-card__success {
+.menu-card__checkbox:checked ~ .menu-card__success-container > .menu-card__success {
   transform: rotate(360deg);
 }
-.menu-card__checkbox:hover ~ .menu-card__infos {
+.menu-card__checkbox:checked ~ .menu-card__infos {
   padding-right: 3rem;
 }
 

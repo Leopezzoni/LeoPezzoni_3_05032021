@@ -75,13 +75,13 @@
   }
   &__checkbox {
     display: none;
-    &:hover ~ .menu-card__success-container {
+    &:checked ~ .menu-card__success-container {
       transform: translateX(0);
     }
-    &:hover ~ .menu-card__success-container > .menu-card__success {
+    &:checked ~ .menu-card__success-container > .menu-card__success {
       transform: rotate(360deg);
     }
-    &:hover ~ .menu-card__infos {
+    &:checked ~ .menu-card__infos {
       padding-right: 3rem;
     }
   }
