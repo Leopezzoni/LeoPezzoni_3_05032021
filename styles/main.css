@@ -336,7 +336,7 @@ a {
   }
 }
 .small-card {
-  background: #f6f6f6;
+  background: rgba(146, 86, 220, 0.15);
   padding: 1.5rem 0 1.5rem 3rem;
   border-radius: 1.3rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
@@ -501,7 +501,7 @@ a {
   margin-bottom: 1.1rem;
 }
 .section-tuto__card--purple:hover {
-  background: rgba(146, 86, 220, 0.15);
+  background: #f6f6f6;
 }
 .section-tuto__number {
   position: absolute;
