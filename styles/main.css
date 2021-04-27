@@ -500,7 +500,7 @@ a {
   position: relative;
   margin-bottom: 1.1rem;
 }
-.section-tuto__card--purple {
+.section-tuto__card--purple:hover {
   background: rgba(146, 86, 220, 0.15);
 }
 .section-tuto__number {
