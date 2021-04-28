@@ -1,0 +1,15 @@
+.section-menu-image {
+  margin-bottom: -2rem;
+  &__image {
+    object-fit: cover;
+    max-height: 14rem;
+  }
+}
+@media (min-width: $mama-bear) {
+  .section-menu-image {
+    margin-bottom: -5rem;
+    &__image {
+      max-height: 25rem;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.section-cta {
+  background: $light-grey;
+  text-align: center;
+
+  &__parag {
+    padding: 2rem 0;
+    color: $light-black;
+    font-size: 0.95rem;
+    line-height: 1.1rem;
+    max-width: 16rem;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: $baby-bear) {
+  .section-cta {
+    &__parag {
+      font-size: 1.1rem;
+      line-height: 1.3rem;
+      padding: 3rem 0;
+    }
+  }
+}
+
+@media (min-width: $mama-bear) {
+  .section-cta {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
